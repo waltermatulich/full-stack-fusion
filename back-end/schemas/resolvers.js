@@ -3,7 +3,7 @@ const { signToken, authenticationError } = require("../utils/auth");
 
 const resolvers = {
     Query: {
-
+        
     },
     Mutation: {
 

@@ -6,7 +6,8 @@
     "develop": "concurrently \"cd back-end && npm run start\" \"cd front-end && npm run dev\"",
     "install": "cd back-end && npm i && cd ../front-end && npm i",
     "seed": "cd back-end && npm run seed",
-    "build": "cd front-end && npm run build"
+    "build": "cd front-end && npm run build",
+    "render-build":"npm install && npm run build"
   },
   "keywords": [],
   "author": "",

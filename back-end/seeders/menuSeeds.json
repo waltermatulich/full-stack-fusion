@@ -1,0 +1,23 @@
+[
+    {
+      "menuName": "Fishsticks",
+      "customerName": "Brian FitzPatrick",
+      "price": 10
+    },
+    {
+      "menuName": "Hamburger",
+      "customerName": "Walter Matulich",
+      "price": 15
+    },
+    {
+      "menuName": "Salad",
+      "customerName": "Manny",
+      "price": 8
+    },
+    {
+      "menuName": "Coffee",
+      "customerName": "Drew Hoang",
+      "price": 4
+    }
+  ]
+  

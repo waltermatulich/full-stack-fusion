@@ -4,8 +4,13 @@ const dateFormat = require('../utils/dateFormat');
 const menuSchema = new Schema({
   menuName: {
     type: String,
-    minlength: 1,
-    maxlength: 280,
+    minLength: 1,
+    maxLength: 280,
+    trim: true,
+  },
+  customerName: {
+    type: String,
+    required: true,
     trim: true,
   },
   price: {

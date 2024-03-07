@@ -1,13 +1,17 @@
-//const { } = require("../models");
+const { User } = require("../models");
 const { signToken, authenticationError } = require("../utils/auth");
 
 const resolvers = {
     Query: {
-        
-    },
-    Mutation: {
+        users: async(parent, args) => {
+            return await User.find({
 
-    }
+            })
+        }
+    },
+    // Mutation: {
+
+    // }
 }
 
 module.exports = resolvers;

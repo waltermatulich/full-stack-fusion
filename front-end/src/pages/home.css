@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navBar {
+    font-weight: 500px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.links {
+    font-size: 20px;
+}

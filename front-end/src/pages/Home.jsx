@@ -1,23 +1,30 @@
-import './home.css'
-import logo from '../assets/logo.png'
-import {Link} from 'react-router-dom'
+import "./home.css";
+import logo from "../assets/logo.png";
+import foodVid from '../assets/food-vid.mp4'
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <nav className="navBar">
-            <Link to='/' className='logo'>
-              <img src={logo}></img>
-            </Link>
-            <div className="links">
-                <Link to="/menu"> Menu</Link>
-                <Link to="/login">Login</Link>
-            </div>
+      <div className="hero">
+        <nav>
+          <Link to='/' className="logo">
+          <img src={logo}></img>
+          </Link>
         </nav>
-        <div>
-          <img src='' className='mainPic'></img>
-        </div>
-    </div>
-  )
-}
+      </div>
 
-export default Home
+
+      <div>
+        <video autoPlay loop muted playsInline className="foodVid">
+          <source src={foodVid} type="video/mp4"></source>
+        </video>
+      </div>
+      <div className="content">
+        <h1>Hungry?</h1>
+        <button className="btn"> Order Now</button>
+      </div>
+    </div>
+  );
+};
+
+export default Home;

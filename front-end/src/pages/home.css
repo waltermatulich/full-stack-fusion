@@ -1,16 +1,40 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
-}
 
-.navBar {
-    font-weight: 500px;
-    font-size: 16px;
-    text-decoration: none;
-}
+.hero {
+    position: relative;
+    width: 100%;
+    text-align: center;
+   
+  }
+  
+  
+  .foodVid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95vh; 
+    object-fit: cover;
+    z-index: -1; 
+  }
+  
+  
+  .content {
+    position: absolute;
+    top: 10; 
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1; 
+  }
+  
+  .content h1 {
+    margin-top: 20vh; 
+    color: #d7c594; 
+    font-size: 50px;
+    /* font-family: ; CHANGE FONT LATER */
+  }
 
-.links {
-    font-size: 20px;
-}
+ /* Style button and link it to menu page
+Style the hungry? 
+make the about us on bottom
+make location and hours page */

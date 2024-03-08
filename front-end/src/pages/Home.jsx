@@ -21,7 +21,9 @@ const Home = () => {
       </div>
       <div className="content">
         <h1>Hungry?</h1>
+        <Link to='/menu'>
         <button className="btn"> Order Now</button>
+        </Link>
       </div>
     </div>
   );

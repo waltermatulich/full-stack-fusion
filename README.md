@@ -112,7 +112,7 @@ Render URL: https://full-stack-fusion.onrender.com/
 - Ashley Paluzzi
 - Elias Mendoza
 - Walter Matulich
-- Manny 
+- Mandeep Singh
 
 ### License
 

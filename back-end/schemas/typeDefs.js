@@ -6,12 +6,10 @@ const typeDefs = `
         menus: [Menu]
     }
 
-    type Menu {
+    type MenuItem {
         _id: ID
-        menuName: String
-        customerName: String
+        item: String
         price: Int
-        createdAt: String
     }
 
     type Query {

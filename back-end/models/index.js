@@ -1,4 +1,4 @@
-const User = require('./User');
-const Menu = require('./Menu');
-
-module.exports = { User, Menu };
+const User = require('./client');
+const Menu = require('./MenuItem');
+const Order = require('./Order');
+module.exports = { User, Menu, Order };

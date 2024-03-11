@@ -1,13 +1,15 @@
 const db = require('../config/connection');
-const { User, Menu, Order } = require('../models');
+const { User, Menu, Order, MenuItem } = require('../models');
 const userSeeds = require('./userSeeds.json');
 const menuSeeds = require('./menuSeeds.json');
+const orderSeeds = require('./orderSeeds.json');
 const cleanDB = require('./cleanDB');
 
 db.once('open', async () => {
   try {
     await cleanDB('MenuItem', 'menuItems');
     await cleanDB('User', 'users');
+    await cleanDB('Order', 'orders');
 
     await User.create(userSeeds);
 
@@ -27,6 +29,6 @@ db.once('open', async () => {
     process.exit(1);
   }
 
-  console.log('all done!');
+  console.log('All done!');
   process.exit(0);
 });

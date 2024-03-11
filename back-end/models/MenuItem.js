@@ -1,11 +1,12 @@
 const { Schema, model } = require('mongoose');
 
-const menuSchema = new Schema({
+const menuItemSchema = new Schema({
   description: {
     type: String,
     minLength: 1,
     maxLength: 280,
     trim: true,
+//  required: true, It makes it so you must have description for every item in Menu
   },
    item: {
     type: String,
@@ -17,6 +18,6 @@ const menuSchema = new Schema({
   }
 });
 
-const MenuItem = model('MenuItem', menuSchema);
+const MenuItem = model('MenuItem', menuItemSchema);
 
 module.exports = MenuItem;

@@ -1,22 +1,22 @@
 [
     {
-      "menuName": "Fishsticks",
-      "customerName": "Brian FitzPatrick",
+      "menuItem": "Fishsticks",
+      "description": "Brian FitzPatrick",
       "price": 10
     },
     {
-      "menuName": "Hamburger",
-      "customerName": "Walter Matulich",
+      "menuItem": "Hamburger",
+      "description": "Walter Matulich",
       "price": 15
     },
     {
-      "menuName": "Salad",
-      "customerName": "Manny",
+      "menuItem": "Salad",
+      "description": "Manny",
       "price": 8
     },
     {
-      "menuName": "Coffee",
-      "customerName": "Drew Hoang",
+      "menuItem": "Coffee",
+      "description": "Drew Hoang",
       "price": 4
     }
   ]

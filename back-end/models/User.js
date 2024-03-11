@@ -19,10 +19,10 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
-  menus: [
+  orders: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'Menu',
+      ref: 'Order',
     },
   ],
 });

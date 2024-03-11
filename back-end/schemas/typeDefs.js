@@ -49,8 +49,12 @@ const typeDefs = `
   }
 
   type Mutation {
-    signIn(email: String!, password: String!): Auth
-  }
+      createUser(username: String!, email: String!, password: String!): User
+      signIn(email: String!, password: String!): Auth
+      addOrder(userId: ID!, orderData: [MenuItemInput]!): Order
+      deleteOrder(userId: ID!, orderId: ID!): Order
+      placeOrder(userId: ID!): Order
+    }
 `;
 
 module.exports = typeDefs;

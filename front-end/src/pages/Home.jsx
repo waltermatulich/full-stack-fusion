@@ -6,11 +6,11 @@ const Home = () => {
   return (
     <div>
       <div className="hero">
-        <nav>
+        
           <Link to='/' className="logo">
           <img src={logo}></img>
           </Link>
-        </nav>
+        
       </div>
 
 

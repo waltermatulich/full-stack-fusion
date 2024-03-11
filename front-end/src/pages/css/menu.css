@@ -1,0 +1,25 @@
+.menuLogo {
+    display: block;
+    align-items: center; /* Center the content (image) vertically */
+    justify-content: center; /* Center the content (image) horizontally */
+
+}
+
+
+
+.BurgPhoto img {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; /* Adjust if necessary */
+    height: 50vh; /* Example: Adjust height to 50% of the viewport height */
+    object-fit: cover; /* or 'contain', depending on the desired effect */
+    z-index: -1;
+}
+
+.menuSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

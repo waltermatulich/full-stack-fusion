@@ -19,6 +19,12 @@ const userSchema = new Schema({
     required: true,
     minlength: 5,
   },
+  menu: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'MenuItem',
+    }
+  ],
   orders: [
     {
       type: Schema.Types.ObjectId,

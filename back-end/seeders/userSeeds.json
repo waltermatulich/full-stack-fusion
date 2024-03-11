@@ -2,22 +2,30 @@
     {
       "username": "Brian FitzPatrick",
       "email": "fishstickbrian@yahoo.org",
-      "password": "Ilovefishsticks"
+      "password": "Ilovefishsticks",
+      "menu": [],
+      "orders": []
     },
     {
       "username": "Walter Matulich",
       "email": "dummydata@gmail.com",
-      "password": "password02"
+      "password": "password02",
+      "menu": [],
+      "orders": []
     },
     {
       "username": "Manny",
       "email": "mannylovessalads@gmail.com",
-      "password": "password03"
+      "password": "password03",
+      "menu": [],
+      "orders": []
     },
     {
       "username": "Drew Hoang",
       "email": "ddawg@gmail.com",
-      "password": "password04"
+      "password": "password04",
+      "menu": [],
+      "orders": []
     }
   ]
   

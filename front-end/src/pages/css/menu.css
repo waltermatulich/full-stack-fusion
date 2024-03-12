@@ -1,8 +1,14 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
 .menuLogo {
     display: block;
     align-items: center; /* Center the content (image) vertically */
     justify-content: center; /* Center the content (image) horizontally */
-
+    
 }
 
 
@@ -12,7 +18,7 @@
     top: 0; 
     left: 0;
     width: 100%; /* Adjust if necessary */
-    height: 50vh; /* Example: Adjust height to 50% of the viewport height */
+    height: 70vh; /* Example: Adjust height to 50% of the viewport height */
     object-fit: cover; /* or 'contain', depending on the desired effect */
     z-index: -1;
 }
@@ -21,5 +27,95 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+.milkyMenu {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.mannyMussels {
+    
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.mussels {
+    height: 400px;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    
+    
+}
+
+.mussels img {
+    max-width: 100%; /* Ensures the image is not wider than the container */
+    max-height: 100%; /* Ensures the image is not taller than the container */
+    border-radius: 20px;
+    border: 6px solid #dd7a13;
+    
+}
+
+.musselsDesc {
+    text-align: center;
+    font-size: 20px;
+    margin-right: 650px;
+    margin-left: 650px;
+}
+
+.bodBurger {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.menuBurger {
+    height: 450px;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    
+}
+
+.menuBurger img {
+    max-width: 100%; /* Ensures the image is not wider than the container */
+    max-height: 100%; /* Ensures the image is not taller than the container */
+    border-radius: 20px;
+    border: 6px solid #dd7a13;
+}
+
+.bodBurgDesc {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+.plump {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.pickles {
+    height: 400px;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+}
+
+.pickles img {
+    max-width: 100%; /* Ensures the image is not wider than the container */
+    max-height: 100%; /* Ensures the image is not taller than the container */
+    border-radius: 20px;
+    border: 6px solid #dd7a13;
+}
+
+.pickleDesc {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 650px;
+    margin-right: 650px;
 }

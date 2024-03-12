@@ -10,9 +10,10 @@ const Home = () => {
           <Link to='/' className="logo">
           <img src={logo}></img>
           </Link>
+          
         
       </div>
-
+      
 
       <div>
         <video autoPlay loop muted playsInline className="foodVid">

@@ -27,7 +27,7 @@ function Menu() {
       </div>
 
         <div className="mannyMussels">
-            <h2>Manny's Mussels   $18.50</h2>
+            <h2>Manny's Mussels   $18</h2>
         </div>
 
       <div className="mussels">
@@ -39,7 +39,7 @@ function Menu() {
       </div>
 
       <div className="bodBurger">
-        <h2>Bodacious Burger $15.14</h2>
+        <h2>Bodacious Burger $15</h2>
       </div>
 
       <div className="menuBurger">
@@ -51,7 +51,7 @@ function Menu() {
       </div>
 
       <div className="plump">
-        <h2>Plump Pickles $3.23</h2>
+        <h2>Plump Pickles $4</h2>
       </div>
 
       <div className="pickles">
@@ -61,6 +61,19 @@ function Menu() {
       <div className="pickleDesc">
         <p> Satisfy your cravings with our Plump Pickles. Pickled to perfection and paired with our signature Muscle Sauce. </p>
       </div>
+
+      <div className="alfredo">
+        <h2>Alfredo $17</h2>
+      </div>
+
+      <div className="alfredoImg">
+        <img src={alfredo}></img>
+      </div>
+
+      <div className="alfredoDisc">
+        <p>  Our Alfredo Pasta enriched with the irresistible flavor of our signature Muscle Sauce. Our creamy Alfredo sauce, delicately crafted, perfectly complements the rich notes of the Muscle Sauce.</p>
+      </div>
+
 
 
 

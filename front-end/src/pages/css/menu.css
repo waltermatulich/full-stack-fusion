@@ -119,3 +119,31 @@
     margin-left: 650px;
     margin-right: 650px;
 }
+
+.alfredo {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.alfredoImg {
+    height: 550px;
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+}
+
+.alfredoImg Img{
+    max-width: 100%; /* Ensures the image is not wider than the container */
+    max-height: 100%; /* Ensures the image is not taller than the container */
+    border-radius: 20px;
+    border: 6px solid #dd7a13;
+}
+
+.alfredoDisc {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+

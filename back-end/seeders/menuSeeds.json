@@ -1,23 +1,30 @@
 [
-    {
-      "menuItem": "Fishsticks",
-      "description": "Brian FitzPatrick",
-      "price": 10
-    },
-    {
-      "menuItem": "Hamburger",
-      "description": "Walter Matulich",
-      "price": 15
-    },
-    {
-      "menuItem": "Salad",
-      "description": "Manny",
-      "price": 8
-    },
-    {
-      "menuItem": "Coffee",
-      "description": "Drew Hoang",
-      "price": 4
-    }
-  ]
-  
+  {
+    "item": "Fishsticks",
+    "description": "Brian FitzPatrick",
+    "price": 10,
+    "image": "",
+    "link": ""
+  },
+  {
+    "item": "Hamburger",
+    "description": "Walter Matulich",
+    "price": 15,
+    "image": "",
+    "link": ""
+  },
+  {
+    "item": "Salad",
+    "description": "Manny",
+    "price": 8,
+    "image": "",
+    "link": ""
+  },
+  {
+    "item": "Coffee",
+    "description": "Drew Hoang",
+    "price": 4,
+    "image": "",
+    "link": ""
+  }
+]

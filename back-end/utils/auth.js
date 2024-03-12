@@ -2,8 +2,8 @@ const { GraphQLError } = require('graphql');
 const jwt = require('jsonwebtoken');
 require("dotenv").config();
 
-const secret = process.env.JWT_SECRET || "mysecretpasphrase";
-const expiration = '30m';
+const secret = process.env.JWT_SECRET || "mysecretpasphrase"; // Use environment variable or fallback to a default passphrase
+const expiration = '30m'; // Set expiration time to 30 minutes
 
 const AuthenticationError = new GraphQLError('Could not authenticate user.', {
   extensions: {
@@ -42,3 +42,5 @@ module.exports = {
   AuthenticationError,
   authMiddleware
 };
+
+// TAKE A LOOK AT THIS

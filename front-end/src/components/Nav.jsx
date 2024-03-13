@@ -8,7 +8,7 @@ function Nav() {
                 <ul>
                     <Link to='/'><li> Home </li></Link>
                     <Link to='/menu'><li> Menu </li></Link>
-                    <Link to= '/signup'><li> Log In </li></Link>
+                    <Link to= '/login'><li> Log In </li></Link>
                     <li>Hours & Location</li>
                 </ul>
             </nav>

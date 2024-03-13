@@ -1,0 +1,49 @@
+
+  .loginImg {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; /* Adjust if necessary */
+    height: 100vh; /* Example: Adjust height to 50% of the viewport height */
+    object-fit: cover; /* or 'contain', depending on the desired effect */
+    z-index: -1;
+  }
+
+  .wrapper {
+    text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px; /* Set a maximum width for the wrapper */
+  width: 100%; /* Ensure it takes full width up to the specified maximum width */
+  margin: auto;
+  margin-top: 120px;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .input-box {
+    margin-bottom: 10px;
+  }
+  
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  .register {
+    color: rgb(91, 45, 197);
+    font-size: 35px;
+  }

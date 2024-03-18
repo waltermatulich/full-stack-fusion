@@ -9,7 +9,7 @@ function Nav() {
                     <Link to='/'><li> Home </li></Link>
                     <Link to='/menu'><li> Menu </li></Link>
                     <Link to= '/login'><li> Log In </li></Link>
-                    <li>Hours & Location</li>
+                    <Link to='/location'><li>Hours & Location</li></Link>
                 </ul>
             </nav>
         </div>

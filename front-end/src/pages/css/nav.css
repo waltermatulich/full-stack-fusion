@@ -2,23 +2,29 @@ nav {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 40px; 
     flex-direction: column;
+    border-bottom: 3px solid #ffffff;
+    
+    
+    
 }
 
 nav ul {
     display: flex;
+
 }
 
 nav ul li {
     list-style: none;
-    margin-right: 20px;
-    font-size: 30px;
+    margin-right: 70px;
+    font-size: 40px;
+    
 }
 
 /* Target the Link component and remove underline */
 nav ul li  {
-    color: white;
+    color: #dbc381;
     text-decoration: none;
+    
 }
 

@@ -23,11 +23,10 @@
   
   .content {
     position: absolute;
-    top: 10; 
-    left: 0;
     width: 100%;
     text-align: center;
     z-index: 1; 
+    padding-top: 0px;
   }
   
   .content h1 {
@@ -39,7 +38,7 @@
 
   .btn {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -49,6 +48,9 @@
     background-color: #fff; 
     border-radius: 5px; 
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-top: 40px;
+    
+    
   
  /* The hover function for button */
     &:hover {
@@ -68,3 +70,15 @@
 Style the hungry? 
 make the about us on bottom
 make location and hours page */
+
+.welcome {
+  text-align: center;
+  padding-top: 700px;
+}
+
+.frontMussels img {
+  height: 400px;
+  width: 500px;
+border-radius: 50%;
+border: 10px solid #9d7e2f;
+}

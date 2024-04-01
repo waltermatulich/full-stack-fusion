@@ -1,4 +1,6 @@
-
+* {
+ 
+}
 .hero {
     position: relative;
     width: 100%;
@@ -66,11 +68,8 @@
     }
   }
 
- /* Style button and link it to menu page
-Style the hungry? 
-make the about us on bottom
-make location and hours page */
 
+/* CSS for the three photos below the home page */
 .welcome {
   text-align: center;
   padding-top: 700px;
@@ -79,6 +78,16 @@ make location and hours page */
 .frontMussels img {
   height: 400px;
   width: 500px;
-border-radius: 50%;
-border: 10px solid #9d7e2f;
+clip-path: circle();
+object-fit: cover;
+}
+
+.frontMussels {
+  display: flex;
+  margin: 0px;
+}
+
+.imageContainer {
+  text-align: center; 
+ margin-left: 100px;
 }

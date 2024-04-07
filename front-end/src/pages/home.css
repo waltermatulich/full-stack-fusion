@@ -38,7 +38,7 @@
     
   }
 
-  .btn {
+  /* .btn {
     padding: 10px 20px;
     font-size: 30px;
     font-weight: bold;
@@ -55,7 +55,7 @@
     
   
  /* The hover function for button */
-    &:hover {
+    /* &:hover {
       background-color:  #8d783d;
       color: #fff;
       border-color: #fff;
@@ -66,7 +66,7 @@
       background-color: #2980b9;
       border-color: #2980b9;
     }
-  }
+  } */ 
 
 
 /* CSS for the three photos below the home page */
@@ -91,3 +91,61 @@ object-fit: cover;
   text-align: center; 
  margin-left: 100px;
 }
+
+/* dividing line seperating photos and about section */
+.dividerLine {
+  margin-top: 50px;
+  border-bottom: 2px solid rgb(153, 149, 149); 
+}
+
+/* about section  */
+
+.aboutHeading {
+  padding-top: 60px;
+  font-size: 30px;
+}
+
+.aboutBeliefs p{
+  margin-top: 75px;
+  margin-left: 500px;
+  width: 800px; /* Set the width of the box */
+  height: 320px; /* Set the height of the box */
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  border: 2px solid black; /* Add a border for visual clarity */
+  font-size: 22px;
+}
+
+/* meet the staff section */
+.meetStaff {
+  margin: 0;
+  background-color: #d7c594;
+  text-align: center; /* Center align the content */
+}
+.meetStaff h1 {
+  margin: 0;
+  padding-top: 70px;
+}
+
+.staffSection {
+  display: flex; /* aligns the photos on a horizontal */
+  justify-content: center; /* centers the items */
+   /* Add some space between items */
+}
+
+.staffSection .foh,
+.staffSection .boh {
+  text-align: center; /* Center align the content */
+}
+
+.staffSection img {
+  height: 400px;
+  width: 500px;
+clip-path: circle();
+object-fit: cover;
+}
+
+
+

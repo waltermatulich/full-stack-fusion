@@ -4,7 +4,7 @@ import '../pages/css/nav.css'
 function Nav() {
     return (
         <div>
-            <nav>
+            <nav className="nav-container">
                 <ul>
                     <Link to='/'><li> Home </li></Link>
                     <Link to='/menu'><li> Menu </li></Link>

@@ -33,16 +33,21 @@ const Home = () => {
         <h1> Welcome to Manny Munchies</h1>
         <div className="frontMussels">
           <div className="imageContainer">
-            <img src={staffImg} alt="Online Order"></img>
+            <a href="#MeettheStaff"><img src={staffImg} alt="Online Order"></img>
+            </a>
             <h1>Meet the Staff</h1>
           </div>
           <div className="imageContainer">
+          <Link to='/menu'>
             <img src={frontMussels} alt="Front Mussels"></img>
+            </Link>
             <h1>Try our Signature Mussels!</h1>
             <h2>A house favorite</h2>
           </div>
           <div className="imageContainer">
+            <Link to="/menu">
             <img src={onlineOrder} alt="Online Order"></img>
+            </Link>
             <h1>Order Online</h1>
           </div>
         </div>
@@ -81,17 +86,21 @@ const Home = () => {
 
       {/* meet the staff section*/}
       <div class="meetStaff">
+        <div id="MeettheStaff">
         <h1>Meet the Staff</h1>
-
+        </div>
         <div class="staffSection">
           
           <div class="foh">
-            <img src={Eli} alt="front end"></img>
+          <a target="_blank" href="https://www.linkedin.com/in/elimendo/"><img src={Eli} alt="front end"></img>
+          </a>
             <h2>Front of House</h2>
           </div>
 
           <div class="boh">
+            <a target="_blank" href="https://www.linkedin.com/in/mandeepiscoding/">
             <img src={Manny} alt="back end"></img>
+            </a>
             <h2>Back of House</h2>
           </div>
 
